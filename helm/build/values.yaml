@@ -1,0 +1,16 @@
+app:
+  name: backend-apis
+  namespace: backend-apis-dev
+  cluster: .apps.cluster-ckvl7.ckvl7.sandbox473.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-idp-demo/backend-apis
+  org: janus-idp-demo
+  name: backend-apis
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: jfroehli
+  name: backend-apis
